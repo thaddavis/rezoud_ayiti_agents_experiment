@@ -1,0 +1,16 @@
+research_task:
+  description: >
+    Conduct research on the latest hot topics in Haiti from the website https://lenouvelliste.com
+    Make sure you find any interesting and relevant information given the current date is October 3rd, 2024.
+  expected_output: >
+    List the hottest topics with 10 bullet points. Include the headline, date, and a brief summary of each topic.
+  agent: researcher
+
+# reporting_task:
+#   description: >
+#     Review the context you got and expand each topic into a full section for a report.
+#     Make sure the report is detailed and contains any and all relevant information.
+#   expected_output: >
+#     A fully fledge reports with the mains topics, each with a full section of information.
+#     Formatted as markdown without '```'
+#   agent: reporting_analyst

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "haitian_news_reporter"
+version = "0.1.0"
+description = "haitian_news_reporter using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.63.6,<1.0.0" }
+firecrawl-py = "^1.2.4"
+
+
+[tool.poetry.scripts]
+haitian_news_reporter = "haitian_news_reporter.main:run"
+run_crew = "haitian_news_reporter.main:run"
+train = "haitian_news_reporter.main:train"
+replay = "haitian_news_reporter.main:replay"
+test = "haitian_news_reporter.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
